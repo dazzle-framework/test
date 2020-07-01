@@ -1,0 +1,30 @@
+{
+    "name": "dazzlesoftware/test",
+    "type": "library",
+    "description": "Dazzle Test Helper Package",
+    "keywords": ["dazzle", "framework", "unit test", "phpunit", "reflection"],
+    "homepage": "https://github.com/dazzle-framework/test",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^7.3.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/database": "^1.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "suggest": {
+        "dazzlesoftware/database": "To use the database test case, install dazzlesoftware/database",
+        "phpunit/phpunit": "To use the database test case, install phpunit/phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Test\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
+}
